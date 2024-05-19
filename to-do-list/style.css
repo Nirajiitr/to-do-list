@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(209, 174, 250);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:1px solid black
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(72, 10, 243);
+    color: white;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.filters button {
+    margin: 0 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#complete {
+    margin-left: 10px;
+    background-color: green;
+}
+#edit{
+    margin-left: 10px;
+    background-color: rgb(173, 238, 44);
+}
+#delete {
+    margin-left: 10px;
+    background-color:red;
+}
+
+@media(max-width:720px){
+    .container{
+        width: 90%;
+    }
+    input[type="text"] {
+        width: 70%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border:1px solid black
+    }
+    button {
+        padding: 5px 10px;
+        font-size: 18px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(72, 10, 243);
+        color: white;
+    }
+    
+}
