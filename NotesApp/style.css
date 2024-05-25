@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+.heading, #createBtn,.input-box {
+    margin: 10px 150px;
+}
+.heading{
+    display: flex;
+    margin-top:100px ;
+}
+.heading img{
+    width: 45px;
+}
+#createBtn{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+   
+}
+
+#createBtn img{
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+}
+.notes{
+   height: 100px;
+    width: 300px; 
+}
+
+.input-box{
+    position: relative;
+   min-height: 100%;
+    width: 100%;
+    background: #fff;
+    outline: none;
+    border-radius: 5px;
+   
+}
+
+.input-box img{
+    width: 25px;
+    position:absolute;
+    bottom:5px;
+    right: 5px;
+    cursor:pointer
+    
+}
